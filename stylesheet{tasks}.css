@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(135deg, #b29e84, #253439);
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+header h1 {
+  font-size: 26px;
+}
+
+.back-btn {
+  color: white;
+  text-decoration: none;
+  background-color: #253439;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background-color: #253439;
+}
+
+.client-page {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.client-section {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.client-section h2 {
+  color: #253439;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.client-section p {
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.btn {
+  background: #253439;
+  color: white;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #253439;
+}
